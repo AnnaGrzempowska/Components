@@ -1,0 +1,1 @@
+Stopka przyklejona z funkcj¹ calc()
