@@ -1,0 +1,1 @@
+Prosta stopka z linkami "Back to top", "Terms of use" i "Privacy"
