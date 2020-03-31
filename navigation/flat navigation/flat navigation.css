@@ -1,0 +1,54 @@
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+/* A simple top navigation */
+
+nav {
+  font-size: 0;
+}
+
+nav ul {
+  background-color: #eee;
+  text-align: center;
+}
+
+nav li {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #C74F78;
+  display: block;
+}
+
+/* Navigation hover */
+
+nav a:hover {
+  background-color: #fff;
+  transition: backgroun-color 0.3s ease-in-out;
+}
+
+/* Navigation active */
+
+nav a.active {
+  background-color: #c74f78;
+  color: #eee;
+}
+
+/* Media */
+
+@media (min-width: 600px) {
+  nav li {
+    display: inline-block;
+    width: 7.5rem;
+    border-bottom: none;
+  }
+}
