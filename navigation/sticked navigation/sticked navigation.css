@@ -1,0 +1,79 @@
+/* General styling */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Top navigation */
+
+nav {
+  background-color: black;
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  font-family: Old Standard TT, sans-serif;
+  color: white;
+  display: block;
+  padding: .5rem 1rem;
+}
+
+nav a:hover {
+  color: grey;
+  transition: color .5s ease-in-out;
+}
+
+.sign-up {
+  border: 1px solid grey;
+  border-radius: 9999px;
+}
+
+.sign-up:hover {
+  color: black;
+  background-color: white;
+  transition: background-color .5s ease-in-out;
+}
+
+/* Paragraph */
+
+@media (min-width: 675px) {
+  section {
+    width: 90%;
+    margin: 5.25rem auto 1.25rem;
+  }
+}
+
+p {
+  font-family: Questrial, sans-serif;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+}
+
+/* Media */
+
+@media (min-width: 675px) {
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  nav a {
+    float: right;
+  }
+  
+  .home {
+    float: left;
+  }
+  
+  /*Clearfix*/
+  nav::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+}
